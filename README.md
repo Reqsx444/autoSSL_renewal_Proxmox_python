@@ -1,4 +1,4 @@
-# autoSSL_renewal_Proxmox_python
+# Certbot SSL Auto-Renewal Script
 ## Introduction
 A Python script for automatic SSL certificate renewal (Let's Encrypt) for a domain assigned to a Proxmox server.
 It checks if the certificate is expiring within 7 days and, if so, renews it, replaces the active certificate files, and restarts the pveproxy service. </br>
